@@ -1,0 +1,105 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0 = loadstring(game:HttpGet("https://raw.githubusercontent.com/vvhoy884ugvv/hgcdghcvjh/refs/heads/main/sfvd.txt"))(); -- 
+-- Bogus Performance Evaluation: x1.000
+local v1 = v0:CreateWindow({Name="arabic fortnite",LoadingTitle="Made With Love",LoadingSubtitle="For Arabic Fortnite",ConfigurationSaving={Enabled=true,FolderName=nil,FileName="HydraVIP"},Discord={Enabled=true,Invite="dvdge._",RememberJoins=true},BackgroundColor=Color3.fromRGB(255, 1916 - (108 + 1553), 768 - (232 + 281)),TextColor=Color3.fromRGB(1138 - (116 + 1022), 1253 - (976 + 277), 957 - (892 + 65))});
+v0:Notify({Title="Arabic Fortnite Script INJECTED",Content="Thank you so much for using this script!",Duration=6.5,Image=(1069582394 - 621219936),Actions={Ignore={Name="Close",Callback=function()
+	print("Notification closed");
+end}}});
+
+local v2 = v1:CreateTab("Aimbot(does not work with xeno)", 828769388 - 380406930);
+local v3 = v2:CreateSection("Aimbot");
+
+v2:CreateToggle({Name="Silent Aim",Callback=function(v20)
+	_G.silentAim = v20;
+	print("Silent Aim: " .. tostring(v20));
+end});
+
+v2:CreateToggle({Name="Infinite Ammo",Callback=function(v21)
+	_G.infiniteAmmo = v21;
+	print("Infinite Ammo: " .. tostring(v21));
+end});
+
+v2:CreateToggle({Name="No Recoil",Callback=function(v22)
+	local v23 = 0 - 0;
+	while true do
+		if (v23 == (0 - 0)) then
+			_G.noRecoil = v22;
+			print("No Recoil: " .. tostring(v22));
+			break;
+		end
+	end
+end});
+
+v2:CreateToggle({Name="No Spread",Callback=function(v24)
+	_G.noSpread = v24;
+	print("No Spread: " .. tostring(v24));
+end});
+
+v2:CreateToggle({Name="Fast Guns",Callback=function(v25)
+	_G.fastFire = v25;
+	print("Fast Guns: " .. tostring(v25));
+end});
+
+v2:CreateToggle({Name="Automatic Guns",Callback=function(v26)
+	local v27 = 859 - (814 + 45);
+	while true do
+		if (v27 == (350 - (87 + 263))) then
+			_G.autoGuns = v26;
+			print("Automatic Guns: " .. tostring(v26));
+			break;
+		end
+	end
+end});
+
+local v4 = v1:CreateTab("Killall", 448362638 - (67 + 113));
+local v5 = v4:CreateSection("Killall");
+
+v4:CreateButton({Name="Killall V1",Callback=function()
+	print("WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!");
+	getgenv().Settings = {gun="Sniper"};
+	if not game.Players.LocalPlayer.Character:FindFirstChild(Settings.gun) then
+		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack[Settings.gun]);
+	end
+	for v44, v45 in next, game.Players:GetPlayers() do
+		if (v45.Name ~= game.Players.LocalPlayer.Name) then
+			game:GetService("ReplicatedStorage").WeaponsSystem.Network.WeaponHit:FireServer(game.Players.LocalPlayer.Character[Settings.gun], {p=v45.Character.Head.Position,pid=(1 + 0),part=v45.Character.Head,d=(177 + 323),maxDist=(1385 - (261 + 624)),h=v45.Character.Humanoid,m=Enum.Material.Plastic,n=Vector3.new(-(0.9637810587882996 - 0), -(1080.046888358891 - (1020 + 60)), -(1423.2625408172607 - (630 + 793))),t=(0.15185665205004445 + 0),sid=(127 - 95)});
+		end
+	end
+end});
+
+local v6 = v1:CreateTab("Other", 448363410 - (802 + 150));
+local v7 = v6:CreateSection("Other");
+
+v6:CreateButton({Name="ESP V1",Callback=function()
+	local v29 = 0 + 0;
+	while true do
+		if (v29 == 0) then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP"))();
+			print("ESP V1 activated!");
+			break;
+		end
+	end
+end});
+
+v6:CreateButton({Name="213123",Callback=function()
+	local v29 = 0 + 0;
+	while true do
+		if (v29 == 0) then
+			loadstring(game:HttpGet(""))();
+			print("12321321!");
+			break;
+		end
+	end
+end});
+
+
