@@ -1,5 +1,4 @@
 
-
 local v0 = loadstring(game:HttpGet("https://raw.githubusercontent.com/vvhoy884ugvv/hgcdghcvjh/refs/heads/main/sfvd.txt"))(); -- 
 -- Bogus Performance Evaluation: x1.000
 local v1 = v0:CreateWindow({Name="arabic fortnite Update Beta 1.0",LoadingTitle="Made With Love",LoadingSubtitle="For Arabic Fortnite",ConfigurationSaving={Enabled=true,FolderName=nil,FileName="HydraVIP"},Discord={Enabled=true,Invite="dvdge._",RememberJoins=true},BackgroundColor=Color3.fromRGB(255, 1916 - (108 + 1553), 768 - (232 + 281)),TextColor=Color3.fromRGB(1138 - (116 + 1022), 1253 - (976 + 277), 957 - (892 + 65))});
